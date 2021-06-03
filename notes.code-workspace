@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"markdown-preview-enhanced.previewTheme": "none.css"
+	}
+}
