@@ -1,0 +1,27 @@
+from: gfm+tex_math_dollars+hard_line_breaks+footnotes
+to: html5
+
+standalone: true
+self-contained: true
+
+# 可以有多个输入,按顺序合并到了同一个输出
+input-files:
+- test.md
+
+output-file: test.html
+
+
+
+metadata:
+  author-meta:
+    - ZKMjolnir
+  title-meta: Notes
+
+css:
+- style.css
+
+
+html-math-method:
+  method: webtex
+  url: https://latex.codecogs.com/svg.latex?
+

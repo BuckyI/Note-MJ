@@ -312,6 +312,16 @@ blockquote ol {
 	margin-left:0;
 }
 
+/* 有时候列表中会插入一些blockquote作为注释,
+blockquote本身的样式已经可以区分段落了
+不希望blockquote占太多空间,去除blockquote中p的间距
+维持列表紧凑的样子, */
+li > blockquote > p,
+li > blockquote > p{
+	margin: 0;
+	border: 0;
+}
+
 /* 表格 */
 /* table {
 	margin-bottom: 1.5em;
