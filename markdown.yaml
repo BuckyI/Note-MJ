@@ -6,16 +6,30 @@ self-contained: true
 
 # 可以有多个输入,按顺序合并到了同一个输出
 input-files:
-- test.md
+- "基本信息.md"
+- "第一讲 何为人.md"
+- "第二讲 什么是马克思主义.md"
+- "第三讲 何为哲学.md"
+- "第四讲 何为世界本质.md"
+- "第五讲 世界如何存在.md"
+- "第六讲 物质世界为何运动.md"
+- "第七讲 物质世界如何运动.md"
+- "第八讲 如何认识世界.md"
+- "第九讲 何为真理.md"
+- "第十讲 唯物史观（一）.md"
+- "第十一讲 唯物史观（二）.md"
+- "第十三讲 资本主义社会的本质.md"
+- "第十四讲 资本主义的发展及其趋势.md"
 
-output-file: test.html
+output-file: "马克思主义基本原理概论.html"
 
-
+table-of-contents: true
+# number-sections: true
 
 metadata:
-  author-meta:
+  author:
     - ZKMjolnir
-  title-meta: Notes
+  title: "马克思主义基本原理概论"
 
 css:
 - style.css

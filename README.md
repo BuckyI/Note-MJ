@@ -38,10 +38,13 @@
 
 MPE 的方法的话，会受到自己设置的其他 MPE 格式的干扰. 并且 css 需要改成 less. 后来发现使用 vscode 工作区设置可以直接指定 css.
 
-#### pandoc
+#### pandoc **★**
 
 如果要分享给别人，可以使用 pandoc 进行转换.
+`-d markdown`选定`markdown.yaml`配置文件
+`markdown.yaml`目前的设定是把所有笔记合并到一个 HTML 文件里.
 
 ```shell
-pandoc test.md -s --self-contained -c style.css -o test.html -f gfm
+cd H:/学习使我快乐/GradeTwoI/√马克思主义基本原理概论/课堂笔记
+pandoc -d markdown
 ```

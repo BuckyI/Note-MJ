@@ -33,7 +33,9 @@ html, body {
 	font-size: var(--md-font-size, 14px);
 	color: var(--md-font-color,black);
 	background-color: var(--md-background-color,white);
-	padding: 0 26px;
+	/* padding: 0 26px; */
+	/* html 左右空5% body 左右空5%, 最终左右各空10%左右 */
+	padding: 0 5%; 
 	line-height: var(--md-line-height, 22px);
 	word-wrap: break-word;
 }
