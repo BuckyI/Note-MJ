@@ -14,14 +14,18 @@
 
 /* 引用字体文件 */
 @font-face {
-	font-family: '文艺字体';
-	src:  url(LucidaUnicodeCalligraphy.ttf), url(FZQKBYSJW.TTF);
+	font-family: '方正清刻';
+	src: url(FZQKBYSJW.TTF);
+}
+@font-face {
+	font-family: 'Lucida';
+	src: url(LucidaUnicodeCalligraphy.ttf);
 }
 
 
 /* SECTION1: 基本设定, 改编自vscode markdown.css */
 :root{
-	--md-font-family: '文艺字体';
+	--md-font-family: 'Lucida', '方正清刻';
 	--md-font-size: 1em;
 	--md-font-color: black;
 	--md-line-height:1.75em;
