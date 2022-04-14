@@ -15,7 +15,7 @@
 /* 引用字体文件 */
 @font-face {
 	font-family: '文艺字体';
-	src: url(FZQKBYSJW.TTF), url(LucidaUnicodeCalligraphy.ttf);
+	src:  url(LucidaUnicodeCalligraphy.ttf), url(FZQKBYSJW.TTF);
 }
 
 
