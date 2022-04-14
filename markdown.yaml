@@ -21,7 +21,7 @@ input-files:
 - "第十三讲 资本主义社会的本质.md"
 - "第十四讲 资本主义的发展及其趋势.md"
 
-output-file: "马克思主义基本原理概论.html"
+output-file: "docs/index.html" # "马克思主义基本原理概论.html"
 
 table-of-contents: true
 # number-sections: true
@@ -32,7 +32,7 @@ metadata:
   title: "马克思主义基本原理概论"
 
 css:
-- style.css
+- style/style.css
 
 
 html-math-method:

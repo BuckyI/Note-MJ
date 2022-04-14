@@ -50,3 +50,5 @@ MPE 的方法的话，会受到自己设置的其他 MPE 格式的干扰. 并且
 cd H:/学习使我快乐/GradeTwoI/√马克思主义基本原理概论/课堂笔记
 pandoc -d markdown
 ```
+
+使用 `@font-face` 引用本地字体文件, 就是生成的 html 文件会比较大.
